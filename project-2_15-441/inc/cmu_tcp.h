@@ -61,6 +61,9 @@ typedef struct {
   int dying;
   pthread_mutex_t death_lock;
   window_t window;
+  //这两个的单位都是us
+  long estimated_rtt;
+  long dev_rtt;
 } cmu_socket_t;
 
 /*

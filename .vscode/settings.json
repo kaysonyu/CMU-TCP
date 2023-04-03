@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "cmu_tcp.h": "c"
+    }
+}
